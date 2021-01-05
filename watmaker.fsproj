@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="WasmTypes.fs" />
+    <Compile Include="WasmInstruction.fs" />
+    <Compile Include="WatImport.fs" />
+    <Compile Include="WatFunction.fs" />
+    <Compile Include="WatData.fs" />
+    <Compile Include="WatModule.fs" />
+    <Compile Include="WatWriter.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
